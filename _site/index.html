@@ -22,12 +22,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="IS445 Jekyll Template">
-  <meta property="og:description" content="I am definitely not a corgi!">
-  <meta property="og:image" content="https://i0.wp.com/www.threecorgis.com///wp-content/uploads/2014/09/three_corgis618-1-1.jpg">
+  <meta property="og:title" content="Home">
+  <meta property="og:description" content="I am definitely not a cat!">
+  <meta property="og:image" content="">
 
-  <title>IS445 Jekyll Template</title>
-  <meta name="description" content="I am definitely not a corgi!">
+  <title>Home</title>
+  <meta name="description" content="I am definitely not a cat!">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -53,7 +53,7 @@
   <main class="flex-shrink-0 container mt-5">
     <nav class="navbar navbar-expand-lg navbar-themed">
 
-  <a class="navbar-brand" href="/"><h5><b>IS445 Jekyll Template</b></h5></a>
+  <a class="navbar-brand" href="/"><h5><b>Home</b></h5></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-1x fa-bars text-themed"></i>
@@ -80,11 +80,31 @@
     <div id="container" class="my-2">
       <div id="dummy"></div>
       <div id="element">
-        <img src="https://i0.wp.com/www.threecorgis.com///wp-content/uploads/2014/09/three_corgis618-1-1.jpg" alt="IS445 Jekyll Template" class="circle-image wow animated zoomIn" data-wow-delay=".1s" />
+        <!-- <img src="" alt="Home" class="circle-image wow animated zoomIn" data-wow-delay=".1s"> -->
+
+        <img id="random-avatar" alt="Home" class="circle-image wow animated zoomIn" data-wow-delay=".1s" />
+        <script>
+          const avatars = [
+          '/assets/gifs/1.gif',
+            '/assets/gifs/2.gif',
+            '/assets/gifs/3.gif',
+            '/assets/gifs/4.gif',
+            '/assets/gifs/5.gif',
+            '/assets/gifs/6.gif',
+          ];
+          const avatarImg = document.getElementById('random-avatar');        
+          function changeAvatar() {
+            const index = Math.floor(Math.random() * avatars.length);
+            avatarImg.src = avatars[index];
+          }
+          avatarImg.onclick = changeAvatar;
+          changeAvatar();
+        </script>
+        
       </div>
     </div>
 
-    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">I am definitely not a corgi!</p>
+    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">I am definitely not a cat!</p>
 
   </div>
 </div>
@@ -94,25 +114,45 @@
 
   <small class="text-muted mb-2">
     <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
-    by <strong>A. P. Corgi</strong>
+    by <strong>Zijie Zhou</strong>
   </small>
 
-  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:username@domain.com"
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:zijiez4@illinois.edu"
        style="color: #6c757d"
        onMouseOver="this.style.color='#db4437'"
        onMouseOut="this.style.color='#6c757d'">
       <i class="fas fa-envelope fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.github.com/jnaiman"
+    </a><a class="social mx-1"  href="https://www.github.com/zijiez4"
        style="color: #6c757d"
        onMouseOver="this.style.color='#333333'"
        onMouseOut="this.style.color='#6c757d'">
       <i class="fab fa-github fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.twitter.com/your_username"
+    </a><a class="social mx-1"  href="https://www.kaggle.com/https://www.kaggle.com/zijiez"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#20beff'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-kaggle fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/https://www.linkedin.com/school/university-of-illinois-urbana-champaign/"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a><a class="social mx-1"  href="https://medium.com/@https://medium.com/university-of-illinois-at-urbana-champaign"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#00ab6c'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-medium fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitter.com/https://x.com/UofIllinois"
        style="color: #6c757d"
        onMouseOver="this.style.color='#1da1f2'"
        onMouseOut="this.style.color='#6c757d'">
       <i class="fab fa-twitter fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.youtube.com/your_channel_name"
+    </a><a class="social mx-1"  href="https://www.vimeo.com/https://vimeo.com/"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#162221'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-vimeo-v fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.youtube.com/https://www.youtube.com/channel/UCzq2rnoZ4iC-30wYZkqRrGw"
        style="color: #6c757d"
        onMouseOver="this.style.color='#ff0000'"
        onMouseOut="this.style.color='#6c757d'">

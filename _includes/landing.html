@@ -5,7 +5,27 @@
     <div id="container" class="my-2">
       <div id="dummy"></div>
       <div id="element">
-        <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
+        <!-- <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s"> -->
+
+        <img id="random-avatar" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
+        <script>
+          const avatars = [
+          '/assets/gifs/1.gif',
+            '/assets/gifs/2.gif',
+            '/assets/gifs/3.gif',
+            '/assets/gifs/4.gif',
+            '/assets/gifs/5.gif',
+            '/assets/gifs/6.gif',
+          ];
+          const avatarImg = document.getElementById('random-avatar');        
+          function changeAvatar() {
+            const index = Math.floor(Math.random() * avatars.length);
+            avatarImg.src = avatars[index];
+          }
+          avatarImg.onclick = changeAvatar;
+          changeAvatar();
+        </script>
+        
       </div>
     </div>
 

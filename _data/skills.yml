@@ -1,0 +1,31 @@
+- name: Python
+  percentage:
+  level: 
+  color: "#3b82f6"
+
+- name: C++
+  color: "#3b82f6"
+
+- name: Web Development
+  color: "#f97316"
+
+- name: Software Engineering
+  color: "#6366f1"
+
+- name: Data Analysis
+  color: "#10b981"
+
+- name: Machine Learning
+  color: "#10b981"
+
+- name: Visualization
+  color: "#db2777"
+
+- name: User Experience (UX) Design
+  color: "#8b5cf6"
+
+- name: Information Systems
+  color: "#0d9488"
+
+- name: Data Ethics
+  color: "#f59e0b"

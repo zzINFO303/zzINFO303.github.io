@@ -1,9 +1,0 @@
-- name: text
-  percentage: 100
-  level: Expert
-  color: info
-
-- name: text
-  percentage: 100
-  level: Expert
-  color: success

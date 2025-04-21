@@ -8,14 +8,17 @@
     <div class="col-8">
       <p class="mb-1">{{ skill.name }}</p>
     </div>
-<!--   <div class="col-2 text-right"> <!-- could work as a last resort --> 
+  <!-- <div class="col-2 text-right"> <!-- could work as a last resort  -->
+      {% if include.show_level %}
       &nbsp; &nbsp; &nbsp; < <div class="text-muted">{{skill.level}}</div><div class="col-1 text-right"></div><!-- could work as a last resort -->
       <!--< {{skill.level}}-->
       <!--<p class="mb-1 text-muted">{{ skill.level }}</p>-->
       <!--<div class="mb-1 text-muted text-left">{{ skill.level }}</div>-->
-    <!--</div>-->
+    <!--</div> -->
+    {% endif %}
   </div>
 
+  {% if include.show_progress %}
   <div class="progress mb-4 bg-themed" style="height: 8px;">
     <div class="progress-bar bg-{{ skill.color | default: "primary" }} wow animated slideInLeft"
       data-wow-delay="{{ forloop.index | divided_by: 20.0 }}"
@@ -26,6 +29,7 @@
 	 aria-valuemax="100">
     </div>
   </div>
+  {% endif %}
 
   {% endfor %}
 

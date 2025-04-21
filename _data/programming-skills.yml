@@ -1,9 +1,0 @@
-- name: text
-  percentage: 100
-  level: Expert
-  color: danger
-
-- name: text
-  percentage: 10
-  level: Beginner
-  color:

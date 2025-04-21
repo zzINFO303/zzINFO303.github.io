@@ -1,0 +1,27 @@
+[
+  
+    {
+      "title"    : "Web Design",
+      "category" : "",
+      "tags"     : "Figma",
+      "url"      : "/blog/Web_Design",
+      "date"     : "2025-04-04 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Code Generation Error Taxonomy",
+      "category" : "",
+      "tags"     : "LLMs, Code Generation, Research, Towards Understanding the Characteristics of Code Generation Errors Made by Large Language Models",
+      "url"      : "/blog/Code_Generation_Error_Taxonomy",
+      "date"     : "2024-06-24 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Visualization Project",
+      "category" : "",
+      "tags"     : "Python, Altair, vega-lite",
+      "url"      : "/blog/Visualization_Project",
+      "date"     : "2024-04-15 00:00:00 -0500"
+    } 
+  
+]

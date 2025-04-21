@@ -11,8 +11,8 @@ Hi I am **{{ site.author.name }}**,<br>
 add text
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Skills" source=site.data.skills show_progress=false show_level=false %}
+{% include about/skills.html title="Awards" source=site.data.awards show_progress=false show_level=true %}
 </div>
 
 <div class="row">

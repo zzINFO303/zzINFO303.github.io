@@ -13,7 +13,7 @@ I'm an undergraduate student at the University of Illinois Urbana-Champaign (UIU
 
 My research interests lie at the intersection of human-AI interaction, large language models, and software engineering. I’m particularly interested in how humans collaborate with intelligent systems to solve complex, technical problems—such as programming, debugging, and code comprehension.<br>
 
-Outside the classroom, I’ve contributed to several research projects that combine empirical analysis with practical applications. Currently, I’m a research intern in the Human-Centered Software Systems Lab at Purdue University, where I collaborate on studies involving large language models (LLMs) and code generation. One of our recent papers, Where Do Large Language Models Fail When Generating Code, was published at the International Conference on Software Engineering (ICSE).
+Outside the classroom, I’ve contributed to several research projects that combine empirical analysis with practical applications. Currently, I’m a research intern in the Human-Centered Software Systems Lab at Purdue University, where I collaborate on studies involving large language models (LLMs) and code generation. One of our recent papers, Where Do Large Language Models Fail When Generating Code, was published at the International Conference on Software Engineering (ICSE). <br>
 
 You can view my [CV here](https://github.com/zzINFO303/zzINFO303.github.io/blob/main/assets/files/resume.pdf).
 

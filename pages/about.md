@@ -15,6 +15,8 @@ My research interests lie at the intersection of human-AI interaction, large lan
 
 Outside the classroom, I’ve contributed to several research projects that combine empirical analysis with practical applications. Currently, I’m a research intern in the Human-Centered Software Systems Lab at Purdue University, where I collaborate on studies involving large language models (LLMs) and code generation. One of our recent papers, Where Do Large Language Models Fail When Generating Code, was published at the International Conference on Software Engineering (ICSE).
 
+You can view my [CV here](assets/files/resume.pdf).
+
 <div class="row">
 {% include about/skills.html title="Skills" source=site.data.skills show_progress=false show_level=false %}
 {% include about/skills.html title="Awards" source=site.data.awards show_progress=false show_level=true %}
